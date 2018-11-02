@@ -1,2 +1,5 @@
 在项目的根目录下执行
 scrapy crawl scrapy_spider -o posts.json
+
+使用docker 执行代码
+docker build -t spider:latest .

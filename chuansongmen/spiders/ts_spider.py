@@ -5,7 +5,7 @@ class ts(scrapy.Spider):
     name = 'scrapy_spider'
 
     def start_requests(self):
-        url = 'http://chuansong.me/account/tiny4voice'
+        url = 'http://chuansong.me/account/yiwanbaimizhou'
         yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
